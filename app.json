@@ -1,0 +1,30 @@
+﻿{
+  "name": "hello",
+  "description": "v2",
+  "keywords": [
+    ""
+  ],
+  "env": {
+    "PROTOCOL": {
+      "description": "协议VMess或VLESS，请填小写的vmess或vless",
+      "value": "vless",
+      "required": true
+    },
+    "UUID": {
+      "description": "用户ID(UUID)",
+      "value": "",
+      "required": false
+    },
+    "WS_PATH": {
+      "description": "websocket路径",
+      "value": "/music",
+      "required": true
+    }
+  },
+  "website": "",
+  "repository": "",
+  "stack": "container",
+  "features": [
+    "runtime-dyno-metadata"
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "inbounds": [
+    {
+      "port": 44389,
+      "protocol": "vmess",
+      "settings": {
+        "clients": [
+          {
+            "id": "$UUID",
+            "alterId": 2
+          }
+        ],
+        "disableInsecureEncryption": true
+      },
+      "streamSettings": {
+        "network": "ws",
+        "wsSettings": {
+          "path": "$WS_PATH"
+        }
+      }
+    }
+  ],
+  "outbounds": [
+    {
+      "protocol": "freedom"
+    }
+  ]
+}
